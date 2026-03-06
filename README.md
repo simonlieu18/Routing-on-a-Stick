@@ -10,29 +10,30 @@ In this lab, we segment a network into VLANs and enable inter-VLAN routing using
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure/Hyper-V (Virtual Machines)
-- Remote Desktop
-- Group Policy Management Console
-- Active Directory Domain Services
-- Powershell
+- Cisco Packet Tracer
+- Cisco IOS CLI
+- 802.1Q Trunking
 
 <h2>Operating Systems Used </h2>
 
-- Windows Server 2022
-- Windows Server 2025
+- Cisco IOS (Router & Switch)
 
 <h2>High-Level Steps</h2>
 
-- Create Shareable Folder
-- Configure Desktop Wallpaper policy
-- Verify Policy with Different Departments
+- Configure VLANs on the switch and assign access ports
+- Configure trunk port between switch and router
+- Configure router sub-interfaces with 802.1Q encapsulation
+- Verify inter-VLAN connectivity using ping (ICMP)
 
 <h2>Configuration Steps</h2>
 
-<img width="50%" alt="Screenshot 2026-01-05 at 2 08 40 PM" src="https://github.com/user-attachments/assets/457fc520-9a6b-41a0-8f20-0be5ecdc6031" />
+<img width="45%" height="262" alt="Screenshot 2026-03-06 at 2 49 04 PM" src="https://github.com/user-attachments/assets/51a169db-6b6a-4e93-b83c-23e2334c5d0c" />
+<img width="45%" height="423" alt="Screenshot 2026-03-06 at 2 49 11 PM" src="https://github.com/user-attachments/assets/9dfa453e-2c7d-4698-83e1-416a465aa6c9" />
+
+
 
 <p>
-First, a sharable folder needs to be created so that different departments are able to access the correct image for their wallpaper. To do that, a new folder will need to be created in the "C:" drive of the domain controller VM. After that, the folder's properties will need to be adjusted so that it will be shareable. By going into properties, sharing tab, advanced sharing, and then having "Share this folder" checked.
+In this lab, subnets and IP addresses are already set up for the devices in the network besides the router. The goal is to put PC 1 & 3 in VLAN 10 and PC 2 & 4 in VLAN 20. To do that, we will have to get into global configuration mode on each switch and navigate to the interfaces of the ports connected to the PCs. Then switch the port modes to access and assign their respective VLANs.
 </p>
 <br />
 
