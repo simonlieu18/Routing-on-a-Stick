@@ -55,7 +55,7 @@ With the switches configured, we can now move on to the router. Since a single p
 </p>
 <br />
 
-<img width="50%" height="476" alt="Screenshot 2026-03-06 at 2 59 38 PM" src="https://github.com/user-attachments/assets/f886cd86-f5c3-4a82-ad07-e854612558bc" />
+<img width="60%" height="476" alt="Screenshot 2026-03-06 at 2 59 38 PM" src="https://github.com/user-attachments/assets/f886cd86-f5c3-4a82-ad07-e854612558bc" />
 
 <p>
 The last step is to test connectivity with all devices across the network.
