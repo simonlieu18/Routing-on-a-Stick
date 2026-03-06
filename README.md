@@ -3,8 +3,8 @@
 
 </p>
 
-<h1>Desktop Wallpaper GPO</h1>
-In this tutorial, we implement a desktop wallpaper policy in Active Directory using Group Policy Management.<br />
+<h1>Router on a Stick with inter-VLAN communication</h1>
+In this lab, we segment a network into VLANs and enable inter-VLAN routing using a Router on a Stick (ROAS) configuration<br />
 
 
 
